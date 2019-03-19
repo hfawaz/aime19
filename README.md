@@ -3,9 +3,17 @@ This is the companion repository for our paper also available on ArXiv titled "A
 This paper has been accepted at the [Conference on Artificial Intelligence in Medicine (AIME) 2019](http://aime19.aimedicine.info/).
 
 ## Approach 
+The following is an example on how a time series alignment is used to synchronize the videos by duplicating the gray-scale frames.
+
 Video without alignment             |  Video with alignment
 :-------------------------:|:-------------------------:
 ![unsynched](https://github.com/hfawaz/aime19/blob/master/img/ts-videos.png)  |  ![synched](https://github.com/hfawaz/aime19/blob/master/img/ts-videos-synched.png)
+
+The following is an example of aligning coordinate X’s time series for subject F, when performing three trials of the suturing surgical task.
+Time series without alignment             |  Time series with alignment
+:-------------------------:|:-------------------------:
+![unsynched](https://github.com/hfawaz/aime19/blob/master/img/ts-ex-original.png)  |  ![synched](https://github.com/hfawaz/aime19/blob/master/img/ts-ex-warped.png)
+
 
 
 ## Data
