@@ -32,3 +32,15 @@ To aligne only two videos for the Suturing task using the classic DTW algorithm,
 ```
 python3 main.py Suturing align_2_videos
 ```
+## Reference
+
+If you re-use this work, please cite:
+
+```
+@InProceedings{IsmailFawaz2019automatic,
+  Title                    = {Automatic alignment of surgical videos using kinematic data},
+  Author                   = {Ismail Fawaz, Hassan and Forestier, Germain and Weber, Jonathan and Petitjean, François and Idoumghar, Lhassane and Muller, Pierre-Alain},
+  booktitle                = {Artificial Intelligence in Medicine},
+  Year                     = {2019}
+}
+```
