@@ -20,6 +20,10 @@ Time series without alignment             |  Time series with alignment
 ## Data
 You will need the [JIGSAWS: The JHU-ISI Gesture and Skill Assessment Working Set](https://cirl.lcsr.jhu.edu/research/hmm/datasets/jigsaws_release/) to re-run the experiments of the paper.
 
+Suturing |  Knot-Tying | Needle-Passing
+:-------------------------:|:-------------------------:|:-------------------------:
+![st](https://github.com/hfawaz/aime19/blob/master/img/su.png)  |  ![kt](https://github.com/hfawaz/aime19/blob/master/img/kt.png) | ![np](https://github.com/hfawaz/aime19/blob/master/img/np.png)
+
 ## Prerequisites
 To run the code you will also need to download seperatly and install the following dependencies that can be found [here](https://github.com/hfawaz/aime19/blob/master/pip-req.txt): 
 * [Keras](https://keras.io/)
