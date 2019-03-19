@@ -42,6 +42,12 @@ Knot_Tying
 Needle_Passing
 ```
 
+Before running the code, you might need to generate the Cython files using the following command: 
+```
+cd src
+./build-cython.sh
+```
+
 To align multiple videos for the Suturing task using the NLTS algorithm, you can run:
 ```
 python3 main.py Suturing align_videos
