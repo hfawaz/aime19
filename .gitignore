@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+# added by hassan
+JIGSAWS/
+temp/
+
 # Distribution / packaging
 .Python
 build/
