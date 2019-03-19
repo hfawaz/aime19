@@ -2,6 +2,12 @@
 This is the companion repository for our paper also available on ArXiv titled "Automatic alignment of surgical videos using kinematic data".
 This paper has been accepted at the [Conference on Artificial Intelligence in Medicine (AIME) 2019](http://aime19.aimedicine.info/).
 
+## Approach 
+Video without alignment             |  Video with alignment
+:-------------------------:|:-------------------------:
+![unsynched](https://github.com/hfawaz/aime19/blob/master/img/ts-videos.png)  |  ![synched](https://github.com/hfawaz/aime19/blob/master/img/ts-videos-synched.png)
+
+
 ## Data
 You will need the [JIGSAWS: The JHU-ISI Gesture and Skill Assessment Working Set](https://cirl.lcsr.jhu.edu/research/hmm/datasets/jigsaws_release/) to re-run the experiments of the paper.
 
@@ -32,6 +38,7 @@ To aligne only two videos for the Suturing task using the classic DTW algorithm,
 ```
 python3 main.py Suturing align_2_videos
 ```
+
 ## Reference
 
 If you re-use this work, please cite:
