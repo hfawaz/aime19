@@ -9,6 +9,8 @@ __pycache__/
 # added by hassan
 JIGSAWS/
 temp/
+venv/
+*.avi
 
 # Distribution / packaging
 .Python
