@@ -10,7 +10,6 @@ def videowarping(originalvideo_1_path, originalvideo_2_path, frameduration_video
     original_video_2 = cv2.VideoCapture(originalvideo_2_path)
 
     fourcc = cv2.VideoWriter_fourcc(*'XVID')
-    #warpedvideo = cv2.VideoWriter(warpedvideopath, fourcc, original_video_1.get(cv2.CAP_PROP_FPS), (int(original_video_1.get(cv2.CAP_PROP_FRAME_WIDTH)*2), int(original_video_1.get(cv2.CAP_PROP_FRAME_HEIGHT))))
     warpedvideo = cv2.VideoWriter(warpedvideopath, fourcc, original_video_1.get(cv2.CAP_PROP_FPS), (1280, 480))
 
     #computer frames number of final video
@@ -60,7 +59,6 @@ def videowarping(originalvideo_1_path, originalvideo_2_path, frameduration_video
     original_video_1.release()
     original_video_2.release()
     warpedvideo.release()
-    #cv2.destroyAllWindows()  #bug on my computer (JW)
 
     return
 
@@ -202,7 +200,6 @@ def multiplevideowarping(rootpath, surgerytype, surgeries, videowarpingvectors, 
     for surgery in range(len(surgeries)):
         originalvideos[surgery].release()
     warpedvideo.release()
-    #cv2.destroyAllWindows()  #bug on my computer (JW)
 
     return
 
