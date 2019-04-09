@@ -1,5 +1,5 @@
 # Automatic alignment of surgical videos using kinematic data
-This is the companion repository for our paper also available on ArXiv titled "Automatic alignment of surgical videos using kinematic data".
+This is the companion repository for our paper also available on ArXiv and [here](https://germain-forestier.info/publis/aime2019.pdf), titled "Automatic alignment of surgical videos using kinematic data".
 This paper has been accepted at the [Conference on Artificial Intelligence in Medicine (AIME) 2019](http://aime19.aimedicine.info/).
 
 ## Approach 
