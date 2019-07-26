@@ -67,6 +67,7 @@ If you re-use this work, please cite:
   Title                    = {Automatic alignment of surgical videos using kinematic data},
   Author                   = {Ismail Fawaz, Hassan and Forestier, Germain and Weber, Jonathan and Petitjean, François and Idoumghar, Lhassane and Muller, Pierre-Alain},
   booktitle                = {Artificial Intelligence in Medicine},
-  Year                     = {2019}
+  Year                     = {2019},
+  pages                    = {104--113}
 }
 ```
